@@ -1,0 +1,49 @@
+package Practico_6_Backtracking.Ejercicio_2_CaminoDeMenorLongitud;
+
+public class Casilla {
+    private int valor;
+    private boolean norte, oeste, sur, este;
+    public Casilla(int valor){
+        this.valor = valor;
+    }
+
+    public boolean isEste() {
+        return este;
+    }
+
+    public void setEste(boolean este) {
+        this.este = este;
+    }
+
+    public boolean isNorte() {
+        return norte;
+    }
+
+    public void setNorte(boolean norte) {
+        this.norte = norte;
+    }
+
+    public boolean isOeste() {
+        return oeste;
+    }
+
+    public void setOeste(boolean oeste) {
+        this.oeste = oeste;
+    }
+
+    public boolean isSur() {
+        return sur;
+    }
+
+    public void setSur(boolean sur) {
+        this.sur = sur;
+    }
+
+    public int getValor() {
+        return valor;
+    }
+
+    public void setValor(int valor) {
+        this.valor = valor;
+    }
+}
